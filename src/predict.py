@@ -5,7 +5,7 @@ import torchvision.models as models
 import torch.nn as nn
 import torch.nn.functional as F #for activation functions like softmax
 
-classes = ['coily', 'curly', 'locs', 'straight', 'wavy'] #classes/folders from dataset
+classes = [ 'braids','coily', 'curly', 'locs', 'straight', 'wavy'] #classes/folders from dataset
 
 #load MobileNetV2 architecture
 model = models.mobilenet_v2(pretrained=False) #false since we will load OUR trained weights

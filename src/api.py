@@ -26,7 +26,7 @@ import io #IO for reading uploaded files
 
 #app = FastAPI() #create FastAPI app
 
-classes = ['coily', 'curly', 'locs', 'straight', 'wavy'] #classes/folders from dataset
+classes = [ 'braids','coily', 'curly', 'locs', 'straight', 'wavy'] #classes/folders from dataset
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu") #use GPU if available
 
