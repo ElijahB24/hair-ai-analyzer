@@ -214,7 +214,7 @@ function App() {
 
         <h1 style={{
           color: 'white',
-          marginBottom: '10px'
+          marginBottom: '30px'
         }}>
           Hair AI Analyzer
         </h1>

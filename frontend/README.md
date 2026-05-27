@@ -1,16 +1,114 @@
-# React + Vite
+# Hair AI Analyzer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A machine learning web application that predicts hair textures and hairstyles using computer vision and deep learning.
 
-Currently, two official plugins are available:
+Built with React, FastAPI, and PyTorch using a custom-trained MobileNetV2 model.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## Demo
+![Demo](assets/demo.gif)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Image upload predictions
+- Live webcam scanning
+- Real-time confidence scores
+- Custom-trained deep learning model
+- Multiple hairstyle categories
+
+---
+
+## Hair Categories
+
+- Braids
+- Coily
+- Curly
+- Locs
+- Straight
+- Wavy
+
+---
+
+## Tech Stack
+
+### Frontend
+- React
+- JavaScript
+- React Webcam
+- React Dropzone
+
+### Backend
+- FastAPI
+- Python
+- PyTorch
+- Torchvision
+
+---
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/YOUR_USERNAME/Hair-AI-Analyzer.git
+cd Hair-AI-Analyzer
+```
+
+Create virtual environment:
+
+```bash
+python -m venv venv
+```
+
+Activate virtual environment:
+
+### Windows
+
+```bash
+venv\Scripts\activate
+```
+
+Install backend dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+Install frontend dependencies:
+
+```bash
+cd frontend
+npm install
+```
+
+---
+
+## Running the Project
+
+### Start Backend
+
+```bash
+cd src
+uvicorn api:app --reload
+```
+
+### Start Frontend
+
+Open a new terminal:
+
+```bash
+cd frontend
+npm run dev
+```
+
+---
+
+## Training the Model
+
+```bash
+cd src
+python train.py
+```
