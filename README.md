@@ -7,7 +7,7 @@ Built with React, FastAPI, and PyTorch using a custom-trained MobileNetV2 model.
 ---
 
 ## Demo
-(https://raw.githubusercontent.com/ElijahB24/hair-ai-analyzer/main/assets/demo.mp4)
+(assets/thumbnail.png)](https://raw.githubusercontent.com/ElijahB24/hair-ai-analyzer/main/assets/demo.mp4)
 
 ---
 
