@@ -7,7 +7,7 @@ Built with React, FastAPI, and PyTorch using a custom-trained MobileNetV2 model.
 ---
 
 ## Demo
-(assets/thumbnail.png)](https://raw.githubusercontent.com/ElijahB24/hair-ai-analyzer/main/assets/demo.mp4)
+![Demo](assets/demo.gif)
 
 ---
 
@@ -50,33 +50,6 @@ Built with React, FastAPI, and PyTorch using a custom-trained MobileNetV2 model.
 
 ## Installation
 
-Clone the repository:
-
-```bash
-git clone https://github.com/YOUR_USERNAME/Hair-AI-Analyzer.git
-cd Hair-AI-Analyzer
-```
-
-Create virtual environment:
-
-```bash
-python -m venv venv
-```
-
-Activate virtual environment:
-
-### Windows
-
-```bash
-venv\Scripts\activate
-```
-
-Install backend dependencies:
-
-```bash
-pip install -r requirements.txt
-```
-
 Install frontend dependencies:
 
 ```bash
@@ -111,4 +84,3 @@ npm run dev
 ```bash
 cd src
 python train.py
-```
